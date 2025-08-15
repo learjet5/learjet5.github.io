@@ -1,0 +1,48 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: " list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    
+      <b class="archive__item-title" itemprop="headline">
+        <!-- <FONT COLOR="#E8702A">
+          {{ title }}
+        </FONT> -->
+        <span style="font-size: 1.1em;">
+            <a href=" {{ post.permalink }} " target="_blank">{{ title }}</a>
+        </span>
+      </b><br>
+      {{ post.authors }}<br>
+      {% if post.venue %}
+      <i>{{ post.venue }}</i><br>
+      {% endif %}
+      (<i>{{ post.short }}</i>), {{ post.time }}.
+
+      {% if post.weburl %}
+      [<a href=" {{ post.weburl }} " target="_blank"><u>website</u></a>]
+      {% endif %}
+      {% if post.paperurl %}
+      [<a href=" {{ post.paperurl }} " target="_blank"><u>paper</u></a>]
+      {% endif %}
+      {% if post.codeurl %}
+      [<a href=" {{ post.codeurl }} " target="_blank"><u>code</u></a>]
+      {% endif %}
+      {% if post.slideurl %}
+      [<a href=" {{ post.slideurl }} " target="_blank"><u>slides</u></a>]
+      {% endif %}
+    
+
+  </article>
+</div>
