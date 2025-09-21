@@ -15,7 +15,7 @@ My research interests span **system security** and **machine learning**, with a 
 Prior to UIUC, I obtained my bachelor's and master's degrees at <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">SJTU</a>, 
 working with <a href="https://scholar.google.com/citations?hl=zh-CN&user=7ikP578AAAAJ" target="_blank" rel="noopener noreferrer">Libo Chen</a> and playing CTF with <a href="https://ctftime.org/team/4419" target="_blank" rel="noopener noreferrer">0ops</a>.
 
-## Publication
+## Publications
 
 {% for post in site.publications reversed %} {% if post.selected %} {% include archive-paper.html %} {% endif %} {% endfor %}
 
@@ -26,7 +26,7 @@ working with <a href="https://scholar.google.com/citations?hl=zh-CN&user=7ikP578
 
 ## Academic Service
 
-Sub-reviewer: USENIX Security’26, NDSS’26
+Sub-reviewer: USENIX Security’26, NDSS’26.
 
 ## Teaching Experience
 
