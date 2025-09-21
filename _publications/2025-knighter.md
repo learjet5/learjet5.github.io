@@ -3,7 +3,7 @@ title: "KNighter: Transforming Static Analysis with LLM-Synthesized Checkers"
 collection: publications
 category: papers
 permalink: https://arxiv.org/abs/2503.09002
-authors: 'Chenyuan Yang, Zijie Zhao, Zichen Xie, <u>Haoyu Li</u>, Lingming Zhang'
+authors: 'Chenyuan Yang, Zijie Zhao, Zichen Xie, <u><b>Haoyu Li</b></u>, Lingming Zhang'
 # date: 2009-10-01
 venue: 'The 31st Symposium on Operating Systems Principles'
 short: 'SOSP 2025'

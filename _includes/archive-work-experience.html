@@ -17,6 +17,9 @@
 
     <div>
         <span>{{ post.job }}</span>, &nbsp; <a href="{{ post.link }}" target="_blank">{{ post.title }}</a>
+        {% if post.job_comment %}
+        <span>({{ post.job_comment }})</span>
+        {% endif %}
         <span style="float: right;">{{ post.start_time }} - {{ post.end_time }}</span>
     </div>
     
