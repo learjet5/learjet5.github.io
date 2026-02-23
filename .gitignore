@@ -1,4 +1,4 @@
-.DS_Store
+**/.DS_Store
 
 # Ignore the contents of the _site directory and other cache directories
 _site/

@@ -2,7 +2,7 @@
 title: "Enhancing Real-Time Operating System Security Analysis via Slice-based Fuzzing"
 collection: publications
 category: papers
-# permalink: 
+permalink: https://ieeexplore.ieee.org/document/11185190
 authors: 'Jialu Li, <u><b>Haoyu Li</b></u>, Yuchong Xie, Yanhao Wang, Qinsheng Hou, Libo Chen, Bo Zhang, Shenghong Li, and Zhi Xue'
 venue: 'IEEE Transactions on Software Engineering'
 short: 'TSE'
